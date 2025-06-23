@@ -1,0 +1,6 @@
+com/barber/systembarber/service/ClienteService.class
+com/barber/systembarber/SystembarberApplication.class
+com/barber/systembarber/controller/ClienteController.class
+com/barber/systembarber/dto/ClienteDTO.class
+com/barber/systembarber/repository/ClienteRepository.class
+com/barber/systembarber/model/Cliente.class

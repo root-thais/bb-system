@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: bb_postgres
+    environment:
+      POSTGRES_DB: bb_system_database
+      POSTGRES_USER: bbuser
+      POSTGRES_PASSWORD: bbpasswd1234
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    restart: always

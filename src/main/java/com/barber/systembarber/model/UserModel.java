@@ -27,7 +27,14 @@ public class UserModel {
 
     @Column(nullable = false, unique = true)
     private String email;
+
     private String phone;
+
+    private String role;
+
+    @ManyToOne
+    @JoinColumn(name = "barbershop_id")
+    private Barbershop barbershop;
 
     @ElementCollection
     @CollectionTable(name = "users", joinColumns = @JoinColumn(name = "user_id"))

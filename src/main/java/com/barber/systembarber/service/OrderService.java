@@ -51,7 +51,7 @@ public class OrderService {
                 verify_order.setName_services(updateService.getName_services());
                 verify_order.setDescription_services(updateService.getDescription_services());
                 verify_order.setPrice_services(updateService.getPrice_services());
-                verify_order.setAvailable_times(updateService.getAvailable_times());
+                verify_order.setDurationInMinutes(updateService.getDurationInMinutes());
 
             return serviceRepository.save(verify_order);
 

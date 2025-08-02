@@ -18,5 +18,5 @@ public class Order {
     public String name_services;
     public String description_services;
     public Number price_services;
-    public String available_times;
+    public Integer durationInMinutes;
 }

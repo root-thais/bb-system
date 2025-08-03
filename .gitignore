@@ -1,0 +1,47 @@
+HELP.md
+
+# Ignorar diretórios target e bin em qualquer lugar do projeto
+**/target/
+**/bin/
+
+target/
+bin/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# build (NetBeans/Gradle/etc.)
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/data
+
+# Java #
+*.class
